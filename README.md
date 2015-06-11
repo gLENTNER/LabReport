@@ -9,8 +9,14 @@ In *Source/Main.tex* you can alter the parameters of your class/section etc.
 and give the report a title and abstract. Change the file *input*'s to
 include whatever sections you like. Put your references in *Source/Main.bib*.
 
-###AUTHOR:
-**Geoffrey Lentner**<br>
+To compile and view your document, issue the `make` from the *LabReport* 
+directory (i.e., where the *Makefile* is). The first time you compile your
+document, or anytime you add more references, you will need to issue `make bib` 
+to run *bibtex*.
+
+**Author**
+
+Geoffrey Lentner<br>
 Graduate Research Assistant<br>
 Department of Physics and Astronomy<br>
 University of Louisville<br>
