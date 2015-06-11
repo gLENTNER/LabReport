@@ -65,3 +65,9 @@ open:
 
 copy:
 	cp ${output}/${main}.pdf ./${project}.pdf
+
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# empty `output` directory
+
+clean:
+	rm -f ${output}/${main}*
