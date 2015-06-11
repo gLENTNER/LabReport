@@ -1,5 +1,5 @@
 # Copyright (c) Geoffrey Lentner 2015. All Rights Reserved.
-# Makefile for Geoffrey Lentner's Masters Thesis
+# Makefile for the LabReport document
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # build variables
@@ -8,7 +8,7 @@ output  = Output
 source  = Source
 styles  = Styles
 main    = Main
-project = PHYS223_ExampleReport
+project = ExampleReport
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # include directories
