@@ -1,0 +1,95 @@
+% Copyright (c) Geoffrey Lentner 2015. All Rights Reserved
+% ExampleReport/Source/DataAnalysis.tex
+
+\section{Data and Analysis}
+To include a table within the two column environment use ``Table''.
+To include a table that spans the two column environment use
+``threeparttable''.
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+% Table within 2 column
+
+\begin{Table}
+\captionof{table}{Table of Drake Equation Parameters.}
+\begin{tabular}{ll}
+\hline\hline
+      & \\
+$R$   & Average star production rate.\\
+$f_g$ & Fraction of stars that are single F, \\
+      & G, or K dwarfs.\\
+$f_p$ & Fraction of stars with planets.\\
+$n_e$ & Number of suitable planets per star.\\
+$f_L$ & Fraction of suitable planets which \\
+      & evolve life.\\
+$f_i$ & Fraction of life bearing planets which \\
+	  & develop intelligent life.\\
+$f_c$ & Fraction of planets with intelligent life \\
+	  & which develop a technological civilization.\\
+$H_c$ & Characteristic time for evolution of \\
+      & a civilization. \\
+$H_*$ & Characteristic decay time for galactic star\\
+	  & formation rate. \\
+      & \\
+\hline
+\end{tabular}
+\label{tab:drake}
+\end{Table}
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+% Table spanning 2 column
+% the contents are taken from the the example thesis/dissertation prepared
+% for the University of Louisville, Department of Physics by
+% John Kielkopf (Professor) and comes from the Karen Collins PhD dissertation.
+
+\begin{center}
+\begin{table*}[!ht]
+\centering
+\begin{threeparttable}
+\caption[WASP-12b Summary of Photometric Observations]{Summary of WASP-12b 
+	Photometric Observations \label{tab:wasp12alltransits}}
+\begin{tabular}{ccccccc}
+\hline\hline
+\multicolumn{1}{l}{Telescope} & 
+\multicolumn{1}{c}{UT Date}   & 
+\multicolumn{1}{c}{Filter}    & 
+\multicolumn{1}{c}{\# Data}   & 
+\multicolumn{1}{c}{ExpT$^2$}  & 
+\multicolumn{1}{c}{RMS$^3$}   & 
+\multicolumn{1}{c}{Scale$^4$} \\
+\hline
+&&&&\\
+MORC$^1$ & 2009-11-05 & $r'$ & 160 & 100 & 1.3 & 1.32\\
+MORC & 2009-11-28 & $r'$ & 134 & 100 & 1.0 & 1.33\\
+MORC & 2010-01-13 & $r'$ & 123 & 100 & 1.1 & 1.24\\
+MORC & 2010-01-14 & $g'$ & 151 & 100 & 1.2 & 1.46\\
+MORC & 2010-11-09 & $r'$ & 129 & 100 & 1.2 & 1.70\\
+MORC & 2010-11-10 & $r'$ & 119 & 100 & 0.9 & 1.29\\
+MORC & 2011-02-11 & $r'$ & 138 & 100 & 0.9 & 1.22\\
+MORC & 2011-12-08 & CBB & 148 & 100 & 0.9 & 1.30\\
+MORC & 2012-02-27 & $r'$ & 167 & 100 & 1.0 & 1.31\\
+MORC & 2012-02-28 & $r'$ & 135 & 100 & 1.2 & 1.43\\
+MORC & 2012-03-10 & $r'$ & 148 & 100 & 1.2 & 1.40\\
+MORC & 2012-11-18 & $r'$ & 135 & 100 & 1.0 & 1.26\\
+MORC & 2012-12-12 & $r'$ & 139 & 100 & 1.0 & 1.09\\
+MORC & 2012-12-23 & $r'$ & 180 & 100 & 1.1 & 1.27\\
+MORC & 2013-01-05 & $r'$ & 160 & 100 & 1.1 & 1.20\\
+MORC & 2013-01-27 & $r'$ & 194 & 100 & 1.3 & 1.07\\
+MORC & 2013-11-11 & $V$ &  93 & 100 & 1.3 & 1.15\\
+MORC & 2013-12-28 & $r'$ & 167 & 100 & 1.1 & 1.40\\
+MORC & 2014-01-20 & $r'$ & 181 & 100 & 1.1 & 1.25\\
+MORC & 2014-12-21 & $r'$ & 201 & 100 & 1.4 & 1.34\\
+MORC & 2015-01-01 & $r'$ & 150 & 100 & 1.9 & 1.20\\
+MORC & 2015-02-06 & $r'$ & 217 & 100 & 1.3 & 1.10\\
+MORC & 2015-02-07 & $r'$ & 138 & 100 & 1.1 & 1.20\\
+&&&&\\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item [1]MORC=U. of Louisville Moore Obs. 0.6 m RCOS telescope\\
+\item [2]Exposure time in seconds\\
+\item [3]RMS in units of $10^{-3}$\\
+\item [4]Error scaling factor
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}
+\end{center}

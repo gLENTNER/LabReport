@@ -1,0 +1,110 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Astropy Collaboration} et~al.(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, and {Streicher}]{astropy}
+{Astropy Collaboration}, T.~P. {Robitaille}, E.~J. {Tollerud}, P.~{Greenfield},
+  M.~{Droettboom}, E.~{Bray}, T.~{Aldcroft}, M.~{Davis}, A.~{Ginsburg}, A.~M.
+  {Price-Whelan}, W.~E. {Kerzendorf}, A.~{Conley}, N.~{Crighton}, K.~{Barbary},
+  D.~{Muna}, H.~{Ferguson}, F.~{Grollier}, M.~M. {Parikh}, P.~H. {Nair}, H.~M.
+  {Unther}, C.~{Deil}, J.~{Woillez}, S.~{Conseil}, R.~{Kramer}, J.~E.~H.
+  {Turner}, L.~{Singer}, R.~{Fox}, B.~A. {Weaver}, V.~{Zabalza}, Z.~I.
+  {Edwards}, K.~{Azalee Bostroem}, D.~J. {Burke}, A.~R. {Casey}, S.~M.
+  {Crawford}, N.~{Dencheva}, J.~{Ely}, T.~{Jenness}, K.~{Labrie}, P.~L. {Lim},
+  F.~{Pierfederici}, A.~{Pontzen}, A.~{Ptak}, B.~{Refsdal}, M.~{Servillat}, and
+  O.~{Streicher}.
+\newblock {Astropy: A community Python package for astronomy}.
+\newblock \emph{\aap}, 558:\penalty0 A33, Oct. 2013.
+\newblock \doi{10.1051/0004-6361/201322068}.
+
+\bibitem[{Baranne} et~al.(1996){Baranne}, {Queloz}, {Mayor}, {Adrianzyk},
+  {Knispel}, {Kohler}, {Lacroix}, {Meunier}, {Rimbaud}, and {Vin}]{Elodie:1996}
+A.~{Baranne}, D.~{Queloz}, M.~{Mayor}, G.~{Adrianzyk}, G.~{Knispel},
+  D.~{Kohler}, D.~{Lacroix}, J.-P. {Meunier}, G.~{Rimbaud}, and A.~{Vin}.
+\newblock {ELODIE: A spectrograph for accurate radial velocity measurements.}
+\newblock \emph{Astronomy and Astrophysics Supplement}, 119:\penalty0 373--390,
+  Oct. 1996.
+
+\bibitem[Hunter(2007)]{Hunter:2007}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock \emph{Computing In Science \& Engineering}, 9\penalty0 (3):\penalty0
+  90--95, 2007.
+
+\bibitem[Jones et~al.(2001--)Jones, Oliphant, Peterson, et~al.]{scipy}
+E.~Jones, T.~Oliphant, P.~Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
+\newblock URL \url{http://www.scipy.org/}.
+\newblock [Online; accessed 2015-06-07].
+
+\bibitem[{Meyer} et~al.(2006){Meyer}, {Lauroesch}, {Heiles}, {Peek}, and
+  {Engelhorn}]{Meyer:2006}
+D.~M. {Meyer}, J.~T. {Lauroesch}, C.~{Heiles}, J.~E.~G. {Peek}, and
+  K.~{Engelhorn}.
+\newblock {A Cold Nearby Cloud inside the Local Bubble}.
+\newblock \emph{\apjl}, 650:\penalty0 L67--L70, Oct. 2006.
+\newblock \doi{10.1086/508658}.
+
+\bibitem[{Meyer} et~al.(2012){Meyer}, {Lauroesch}, {Peek}, and
+  {Heiles}]{Meyer:2012}
+D.~M. {Meyer}, J.~T. {Lauroesch}, J.~E.~G. {Peek}, and C.~{Heiles}.
+\newblock {The Remarkable High Pressure of the Local Leo Cold Cloud}.
+\newblock \emph{\apj}, 752:\penalty0 119, June 2012.
+\newblock \doi{10.1088/0004-637X/752/2/119}.
+
+\bibitem[{Moultaka} et~al.(2004){Moultaka}, {Ilovaisky}, {Prugniel}, and
+  {Soubiran}]{Elodie:2004}
+J.~{Moultaka}, S.~A. {Ilovaisky}, P.~{Prugniel}, and C.~{Soubiran}.
+\newblock {The ELODIE Archive}.
+\newblock \emph{The Publications of the Astronomical Society of the Pacific},
+  116:\penalty0 693--698, July 2004.
+\newblock \doi{10.1086/422177}.
+
+\bibitem[{Peek} et~al.(2011){Peek}, {Heiles}, {Peek}, {Meyer}, and
+  {Lauroesch}]{Peek:2011}
+J.~E.~G. {Peek}, C.~{Heiles}, K.~M.~G. {Peek}, D.~M. {Meyer}, and J.~T.
+  {Lauroesch}.
+\newblock {The Local Leo Cold Cloud and New Limits on a Local Hot Bubble}.
+\newblock \emph{\apj}, 735:\penalty0 129, July 2011.
+\newblock \doi{10.1088/0004-637X/735/2/129}.
+
+\bibitem[{Prugniel} et~al.(2007){Prugniel}, {Soubiran}, {Koleva}, and {Le
+  Borgne}]{Elodie:2007}
+P.~{Prugniel}, C.~{Soubiran}, M.~{Koleva}, and D.~{Le Borgne}.
+\newblock {New release of the ELODIE library: Version 3.1}.
+\newblock \emph{ArXiv Astrophysics e-prints}, Mar. 2007.
+
+\bibitem[{Savage} and {Sembach}(1991)]{Savage}
+B.~D. {Savage} and K.~R. {Sembach}.
+\newblock {The analysis of apparent optical depth profiles for interstellar
+  absorption lines}.
+\newblock \emph{\apj}, 379:\penalty0 245--259, Sept. 1991.
+\newblock \doi{10.1086/170498}.
+
+\bibitem[van~der Walt et~al.(2011)van~der Walt, Colbert, and Varoquaux]{numpy}
+S.~van~der Walt, S.~C. Colbert, and G.~Varoquaux.
+\newblock The numpy array: A structure for efficient numerical computation,
+  2011.
+
+\bibitem[{Wenger} et~al.(2000){Wenger}, {Ochsenbein}, {Egret}, {Dubois},
+  {Bonnarel}, {Borde}, {Genova}, {Jasniewicz}, {Lalo{\"e}}, {Lesteven}, and
+  {Monier}]{simbad}
+M.~{Wenger}, F.~{Ochsenbein}, D.~{Egret}, P.~{Dubois}, F.~{Bonnarel},
+  S.~{Borde}, F.~{Genova}, G.~{Jasniewicz}, S.~{Lalo{\"e}}, S.~{Lesteven}, and
+  R.~{Monier}.
+\newblock {The SIMBAD astronomical database. The CDS reference database for
+  astronomical objects}.
+\newblock \emph{\aaps}, 143:\penalty0 9--22, Apr. 2000.
+\newblock \doi{10.1051/aas:2000332}.
+
+\end{thebibliography}
