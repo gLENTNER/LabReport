@@ -30,3 +30,4 @@ University of Louisville<br>
 ##Preview
 
 ![example](preview.png "Preview of Default Lab Report")
+![example](preview2.png "Preview of Default Lab Report")

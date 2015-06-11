@@ -46,7 +46,93 @@
 % = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 % Misc. Commands
 
-\newcommand{\note}[1]{$^{#1}$}
+\newcommand{\uppnote}[1]{$^{#1}$}
+\newcommand{\lownote}[1]{$_{#1}$}
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+% names and symbols
+
+\newcommand{\arcmin}{\mbox{\ensuremath{^\prime}}}              % arcminute symbol: 0'0
+\newcommand{\Prime}{\mbox{\ensuremath{^\prime}}}               % arcminute symbol: 0'0
+\newcommand{\arcs}{\mbox{\ensuremath{^{\!\prime\prime}}}}      % arcsecond symbol: 0''
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\!\prime\prime}}}}    % arcsecond symbol: 0''
+\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}    % fractional arcminute symbol: 0.'0
+\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}  % fractional arcsecond symbol: 0.''0
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}             % fractional degree symbol:    0.°0
+\newcommand{\arcdeg}{\ensuremath{^{\circ}}}                    % degree symbol:  °
+\newcommand{\degrees}{\ensuremath{^{\circ}}}                   % degree symbol:  °
+\newcommand{\angs}{\mbox{\normalfont\AA}}
+\newcommand{\case}[2]{\mbox{$\frac{#1}{#2}$}}
+\newcommand{\slantfrac}{\case}
+\newcommand{\onehalf}{\slantfrac{1}{2}}
+\newcommand{\onethird}{\slantfrac{1}{3}}
+\newcommand{\twothirds}{\slantfrac{2}{3}}
+\newcommand{\onequarter}{\slantfrac{1}{4}}
+\newcommand{\threequarters}{\slantfrac{3}{4}}
+\newcommand{\ubvr}{\mbox{$U\!BV\!R$}}                          % UBVR system
+\newcommand{\ub}{\mbox{$U\!-\!B$}}                             % U-B
+\newcommand{\bv}{\mbox{$B\!-\!V$}}                             % B-V
+\newcommand{\vr}{\mbox{$V\!-\!R$}}                             % V-R
+\newcommand{\ur}{\mbox{$U\!-\!R$}}                             % U-R
+\newcommand{\ion}[2]{#1$\;${\small\rmfamily\@Roman{#2}}\relax}
+\newcommand{\diameter}{\ooalign{\hfil/\hfil\crcr\mathhexbox20D}}
+\newcommand{\degr}{\arcdeg}
+\newcommand{\Sun}{\sun}                                        % Sun symbol, "S"
+\newcommand{\Sol}{\sun}
+\newcommand{\sun}{\odot}
+\newcommand{\Mercury}{\astro{\char1}}                          % Mercury symbol, "1"
+\newcommand{\Venus}{\astro{\char2}}                            % Venus symbol, "2"
+\newcommand{\Earth}{\earth}                                    % Earth symbol, "3"
+\newcommand{\Terra}{\earth}
+\newcommand{\earth}{\oplus}
+\newcommand{\Mars}{\astro{\char4}}                             % Mars symbol, "4"
+\newcommand{\Jupiter}{\astro{\char5}}                          % Jupiter symbol, "5"
+\newcommand{\Saturn}{\astro{\char6}}                           % Saturn symbol, "6"
+\newcommand{\Uranus}{\astro{\char7}}                           % Uranus symbol, "7"
+\newcommand{\Neptune}{\astro{\char8}}                          % Neptune symbol, "8"
+\newcommand{\Pluto}{\astro{\char9}}                            % Pluto symbol, "9"
+\newcommand{\Moon}{\astro{\char10}}                            % Moon symbol, "M"
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+% miscellaneous aliases
+
+\newcommand{\la}{\lesssim}
+\newcommand{\ga}{\gtrsim}
+\newcommand{\etal}{{et al.\ }}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\mjup}{{\rm M}_{\rm J}}
+\newcommand{\rjup}{{\rm R}_{\rm J}}
+\newcommand{\teff}{\ensuremath{T_{\rm eff}}}
+\newcommand{\teq}{\ensuremath{T_{\rm eq}}}
+\newcommand{\feh}{{\rm [Fe/H]}}
+\newcommand{\mum}{\mu{\rm m}}
+\newcommand{\loggp}{\ensuremath{\log{g_{\rm P}}}}
+\newcommand{\loggstar}{\ensuremath{\log{g_\star}}}
+\newcommand{\logg}{\ensuremath{\log{g}}}
+\newcommand{\pchisq}{\ensuremath{P\left(>\chisq \right)}}
+\newcommand{\chisq}{\ensuremath{\chi^{\,2}}}
+\newcommand{\chisqdof}{\ensuremath{\chi^{\,2}\!/\raisebox{-.3ex}{\rm dof}}}
+\newcommand{\chisqred}{\ensuremath{\chi^{\,2}_{red}}}
+\newcommand{\vsini}{\ensuremath{\,{v\sin{i_\star}}}}
+\newcommand{\bjdtdb}{\ensuremath{\rm {BJD_{TDB}}}}
+\newcommand{\ecosw}{\ensuremath{e\cos{\omega_\star}}}
+\newcommand{\esinw}{\ensuremath{e\sin{\omega_\star}}}
+\newcommand{\msun}{\ensuremath{\,{\rm M}_\Sun}}
+\newcommand{\rsun}{\ensuremath{\,{\rm R}_\Sun}}
+\newcommand{\lsun}{\ensuremath{\,{\rm L}_\Sun}}
+\newcommand{\mj}{\ensuremath{\,{\rm M}_{\rm J}}}
+\newcommand{\rj}{\ensuremath{\,{\rm R}_{\rm J}}}
+\newcommand{\fave}{\langle F \rangle}
+\newcommand{\fluxcgs}{10$^9$ erg s$^{-1}$ cm$^{-2}$}
+\newcommand{\kms}{\ensuremath{\,{\rm km~s^{-1}}}}
+\newcommand{\ms}{\ensuremath{\,{\rm m~s^{-1}}}}
+\newcommand{\three}{3.6$\mu$m\ }
+\newcommand{\four}{4.5$\mu$m\ }
+\newcommand{\nad}{Na~\textsc{d}\ }
+\newcommand{\nadp}{(Na~\textsc{d})\ }
 
 % = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 % journal abbreviations
