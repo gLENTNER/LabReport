@@ -17,7 +17,7 @@ To compile and view your document, issue the `make` command from the
 compile your document, or anytime you add more references, you will need to 
 issue `make bib` to run *bibtex*.
 
-**Author**
+##Author
 
 Geoffrey Lentner<br>
 Graduate Research Assistant<br>
@@ -26,5 +26,7 @@ University of Louisville<br>
 
 <a href="http://glentner.github.io">Website</a> | 
 <a href="mailto:grlent01@louisville.edu">Email</a>
+
+##Preview
 
 ![example](preview.png "Preview of Default Lab Report")
