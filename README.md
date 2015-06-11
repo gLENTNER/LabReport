@@ -26,3 +26,5 @@ University of Louisville<br>
 
 <a href="http://glentner.github.io">Website</a> | 
 <a href="mailto:grlent01@louisville.edu">Email</a>
+
+![example](preview.png "Preview of Default Lab Report")
