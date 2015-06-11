@@ -8,7 +8,7 @@ output  = Output
 source  = Source
 styles  = Styles
 main    = Main
-project = ExampleReport
+project = LabReport
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # include directories
